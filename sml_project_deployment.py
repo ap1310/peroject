@@ -427,6 +427,5 @@ loaded_model = pickle.load(open(filename, 'rb'))
 # use the loaded model to make predictions
 y_pred = loaded_model.predict(X_test)
 
-!pip install tensorflow==2.11.0
->>> import tensorflow as tf
+
 
